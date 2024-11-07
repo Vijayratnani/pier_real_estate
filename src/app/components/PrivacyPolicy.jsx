@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/pierLogo.png';
+import logo from '../assests/pierLogo.png';
 import Image from 'next/image';
 import "../styles/styles2.css";
 import Link from 'next/link';
@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
   return (
     <section className="bg-white animate-fadeIn px-4 md:px-8">
       <div className="flex flex-col md:flex-row">
-        <div className="md:w-1/4 animate-slideInLeft">
+        <div className=" animate-slideInLeft">
           <div className="h-auto pb-10 bg-transparent animate-bounce">
             <div className='fade-in'>
               <Image src={logo} alt="Logo" className="w-24 md:w-32 mx-auto md:mx-12 h-auto mt-8 animate-bounce" />
